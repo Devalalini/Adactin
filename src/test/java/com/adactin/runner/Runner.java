@@ -18,7 +18,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src//test//java//com//adactin//feature//Adactin.feature",
                  glue="com\\adactin\\stepdefinition" , //                 tags= {"@Login"},
                  monochrome = true,                 dryRun = false,                 strict = true,
-                 plugin= {"html:Report\\CucumberReport","json:Report\\CucumberReport.json",
+                 plugin= {"html:Report\\CucumberReport","json:Report\\CucumberReports.json",
                 		 "com.cucumber.listener.ExtentCucumberFormatter:Report\\extentReport.html"})
 
 public class Runner extends BaseClass {
