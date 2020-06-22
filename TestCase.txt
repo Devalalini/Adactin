@@ -1,2 +1,2 @@
-TC 1 Completed
-TC 2 Completed
+TC 1
+TC 2
