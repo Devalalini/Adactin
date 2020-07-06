@@ -90,7 +90,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 320000,
+  "duration": 402900,
   "status": "passed"
 });
 formatter.scenario({
@@ -137,7 +137,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_the_adactin_application()"
 });
 formatter.result({
-  "duration": 1914984400,
+  "duration": 2681527100,
   "status": "passed"
 });
 formatter.match({
@@ -150,7 +150,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_username(String)"
 });
 formatter.result({
-  "duration": 494568200,
+  "duration": 762936600,
   "status": "passed"
 });
 formatter.match({
@@ -163,22 +163,22 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_password(String)"
 });
 formatter.result({
-  "duration": 371439200,
+  "duration": 484322700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_enter_in_the_login_button()"
 });
 formatter.result({
-  "duration": 595192700,
+  "duration": 781692000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 267100,
+  "duration": 315400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 158500,
+  "duration": 466200,
   "status": "passed"
 });
 formatter.scenario({
@@ -225,7 +225,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_the_adactin_application()"
 });
 formatter.result({
-  "duration": 569594800,
+  "duration": 535631800,
   "status": "passed"
 });
 formatter.match({
@@ -238,7 +238,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_username(String)"
 });
 formatter.result({
-  "duration": 315309700,
+  "duration": 436347800,
   "status": "passed"
 });
 formatter.match({
@@ -251,22 +251,22 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_password(String)"
 });
 formatter.result({
-  "duration": 282566200,
+  "duration": 424112900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_enter_in_the_login_button()"
 });
 formatter.result({
-  "duration": 526719700,
+  "duration": 519638000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 137600,
+  "duration": 223000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 156600,
+  "duration": 243400,
   "status": "passed"
 });
 formatter.scenario({
@@ -313,7 +313,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_the_adactin_application()"
 });
 formatter.result({
-  "duration": 296565400,
+  "duration": 326546800,
   "status": "passed"
 });
 formatter.match({
@@ -326,7 +326,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_username(String)"
 });
 formatter.result({
-  "duration": 293241400,
+  "duration": 528764400,
   "status": "passed"
 });
 formatter.match({
@@ -339,22 +339,22 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_valid_password(String)"
 });
 formatter.result({
-  "duration": 257137200,
+  "duration": 501134800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_enter_in_the_login_button()"
 });
 formatter.result({
-  "duration": 470900700,
+  "duration": 636703100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 100700,
+  "duration": 121400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 141100,
+  "duration": 127100,
   "status": "passed"
 });
 formatter.scenario({
@@ -401,7 +401,7 @@ formatter.match({
   "location": "StepDefinition.user_launch_the_adactin_application()"
 });
 formatter.result({
-  "duration": 278483200,
+  "duration": 397788000,
   "status": "passed"
 });
 formatter.match({
@@ -411,10 +411,105 @@ formatter.match({
       "offset": 12
     }
   ],
+  "location": "StepDefinition.user_enter_the_valid_username(String)"
+});
 formatter.result({
-  "duration": 94659763300,
-  "error_message": "java.lang.RuntimeException\r\n\tat com.cucumber.baseclass.BaseClass.selectDropDownOption(BaseClass.java:166)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_select_the_location(StepDefinition.java:71)\r\n\tat ✽.Given User select \"London\" the location(src/test/java/com/adactin/feature/Adactin.feature:16)\r\n",
-  "status": "failed"
+  "duration": 595709200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Deva@11",
+      "offset": 12
+    }
+  ],
+  "location": "StepDefinition.user_enter_the_valid_password(String)"
+});
+formatter.result({
+  "duration": 509575600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_enter_in_the_login_button()"
+});
+formatter.result({
+  "duration": 2903974300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 128000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 163700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Searching the hotel in the application",
+  "description": "",
+  "id": "testing-hotel-booking-and-cancellation-functionalities-in-adactin-application;searching-the-hotel-in-the-application",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 17,
+  "name": "User select \"London\" the location",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 18,
+  "name": "User select \"Hotel Sunshine\" the hotel",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 19,
+  "name": "User select \"Standard\" the room type",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "User select \"1\" the no of rooms",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "User select \"26/06/2020\" the check in date",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "User select \"28/06/2020\" the check out date",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "User select \"1\" the adults per room",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "User select \"1\" the children per room",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "User click on the search button",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "London",
+      "offset": 13
+    }
+  ],
+  "location": "StepDefinition.user_select_the_location(String)"
+});
+formatter.result({
+  "duration": 279601800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -426,7 +521,8 @@ formatter.match({
   "location": "StepDefinition.user_select_the_hotel(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 262843000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -438,7 +534,8 @@ formatter.match({
   "location": "StepDefinition.user_select_the_room_type(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 259425100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -450,7 +547,8 @@ formatter.match({
   "location": "StepDefinition.user_select_the_no_of_rooms(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 274328800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -462,7 +560,8 @@ formatter.match({
   "location": "StepDefinition.user_select_the_check_in_date(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 613400800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -474,7 +573,8 @@ formatter.match({
   "location": "StepDefinition.user_select_the_check_out_date(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 505131100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -486,7 +586,8 @@ formatter.match({
   "location": "StepDefinition.user_select_the_adults_per_room(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 255975300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -498,25 +599,26 @@ formatter.match({
   "location": "StepDefinition.user_select_the_children_per_room(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 495402500,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_the_search_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1092511800,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 7131600,
-  "error_message": "java.lang.RuntimeException\r\n\tat com.cucumber.baseclass.BaseClass.takeScreenshot(BaseClass.java:215)\r\n\tat com.adactin.stepdefinition.Hooks.afterHooks(Hooks.java:23)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
-  "status": "failed"
+  "duration": 197500,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 191400,
+  "duration": 319700,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
+  "line": 27,
   "name": "Selecting the hotel in the application",
   "description": "",
   "id": "testing-hotel-booking-and-cancellation-functionalities-in-adactin-application;selecting-the-hotel-in-the-application",
@@ -524,12 +626,12 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 27,
+  "line": 28,
   "name": "User select the hotel radio button",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 28,
+  "line": 29,
   "name": "User click the continue button",
   "keyword": "And "
 });
@@ -537,26 +639,26 @@ formatter.match({
   "location": "StepDefinition.user_select_the_hotel_radio_button()"
 });
 formatter.result({
-  "duration": 120685515700,
+  "duration": 235809300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_the_continue_button()"
 });
 formatter.result({
-  "duration": 120447121200,
+  "duration": 1098299600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 162500,
+  "duration": 474400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 146100,
+  "duration": 149600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 30,
+  "line": 31,
   "name": "Booking the hotel in the application",
   "description": "",
   "id": "testing-hotel-booking-and-cancellation-functionalities-in-adactin-application;booking-the-hotel-in-the-application",
@@ -564,47 +666,47 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 31,
+  "line": 32,
   "name": "User enter \"Devalalini\" the first name",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 32,
+  "line": 33,
   "name": "User enter \"K\" the last name",
   "keyword": "When "
 });
 formatter.step({
-  "line": 33,
+  "line": 34,
   "name": "User enter \"Chennai\" the address",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 35,
   "name": "User enter \"1111111111111111\" the credit card number",
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 36,
   "name": "User select \"VISA\" the credit card type",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 37,
   "name": "User select \"3\" the expiry month",
   "keyword": "And "
 });
 formatter.step({
-  "line": 37,
+  "line": 38,
   "name": "User select \"2021\" the expiry year",
   "keyword": "And "
 });
 formatter.step({
-  "line": 38,
+  "line": 39,
   "name": "User enter \"111\" the ccv number",
   "keyword": "And "
 });
 formatter.step({
-  "line": 39,
+  "line": 40,
   "name": "User click the book now button",
   "keyword": "And "
 });
@@ -618,7 +720,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_first_name(String)"
 });
 formatter.result({
-  "duration": 120367586600,
+  "duration": 539736700,
   "status": "passed"
 });
 formatter.match({
@@ -631,7 +733,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_last_name(String)"
 });
 formatter.result({
-  "duration": 120588563500,
+  "duration": 409311600,
   "status": "passed"
 });
 formatter.match({
@@ -644,7 +746,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_address(String)"
 });
 formatter.result({
-  "duration": 120719486400,
+  "duration": 434234300,
   "status": "passed"
 });
 formatter.match({
@@ -657,9 +759,8 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_credit_card_number(String)"
 });
 formatter.result({
-  "duration": 60460258800,
-  "error_message": "java.lang.RuntimeException\r\n\tat com.cucumber.baseclass.BaseClass.scrollUsingElement(BaseClass.java:200)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_enter_the_credit_card_number(StepDefinition.java:213)\r\n\tat ✽.And User enter \"1111111111111111\" the credit card number(src/test/java/com/adactin/feature/Adactin.feature:34)\r\n",
-  "status": "failed"
+  "duration": 586322000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -671,7 +772,8 @@ formatter.match({
   "location": "StepDefinition.user_select_the_credit_card_type(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 205615700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -683,7 +785,8 @@ formatter.match({
   "location": "StepDefinition.user_select_the_expiry_month(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 329726000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -695,7 +798,8 @@ formatter.match({
   "location": "StepDefinition.user_select_the_expiry_year(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 303632500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -707,25 +811,26 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_ccv_number(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 384295100,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_the_book_now_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 244607400,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 7258600,
-  "error_message": "java.lang.RuntimeException\r\n\tat com.cucumber.baseclass.BaseClass.takeScreenshot(BaseClass.java:215)\r\n\tat com.adactin.stepdefinition.Hooks.afterHooks(Hooks.java:23)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
-  "status": "failed"
+  "duration": 79500,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 94600,
+  "duration": 83500,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 41,
+  "line": 42,
   "name": "Confirming the hotel in the application",
   "description": "",
   "id": "testing-hotel-booking-and-cancellation-functionalities-in-adactin-application;confirming-the-hotel-in-the-application",
@@ -733,15 +838,139 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 42,
+  "line": 43,
   "name": "User scrolls the page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 43,
+  "line": 44,
   "name": "User click the my itinerary button",
   "keyword": "When "
 });
 formatter.match({
   "location": "StepDefinition.user_scrolls_the_page()"
+});
+formatter.result({
+  "duration": 5793804700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_click_the_my_itinerary_button()"
+});
+formatter.result({
+  "duration": 727059900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 242400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 141300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 46,
+  "name": "Selecting the hotel booked in the application",
+  "description": "",
+  "id": "testing-hotel-booking-and-cancellation-functionalities-in-adactin-application;selecting-the-hotel-booked-in-the-application",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 47,
+  "name": "User select the booked hotel",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinition.user_select_the_booked_hotel()"
+});
+formatter.result({
+  "duration": 308929600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 129700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 135400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 49,
+  "name": "Cancelling the selected hotel in the application",
+  "description": "",
+  "id": "testing-hotel-booking-and-cancellation-functionalities-in-adactin-application;cancelling-the-selected-hotel-in-the-application",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 50,
+  "name": "User click the cancel hotel button",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 51,
+  "name": "User select \"accept\" accept in the alert button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinition.user_click_the_cancel_hotel_button()"
+});
+formatter.result({
+  "duration": 331356100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "accept",
+      "offset": 13
+    }
+  ],
+  "location": "StepDefinition.user_select_accept_in_the_alert_button(String)"
+});
+formatter.result({
+  "duration": 15264100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 254200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 227200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 54,
+  "name": "Logging out from the application",
+  "description": "",
+  "id": "testing-hotel-booking-and-cancellation-functionalities-in-adactin-application;logging-out-from-the-application",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 53,
+      "name": "@Logout"
+    }
+  ]
+});
+formatter.step({
+  "line": 55,
+  "name": "User click the logout button",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinition.user_click_the_logout_button()"
+});
+formatter.result({
+  "duration": 1153655500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 166200,
+  "status": "passed"
+});
 });
